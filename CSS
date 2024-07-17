@@ -68,21 +68,8 @@ body {
 }
 
 .card-1-col-video {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background: #262626; */
-  position: relative;
-  overflow: hidden;
-  min-height: 50vh;
-}
-
-.video {
-  position: absolute;
-  z-index: -1;
-  overflow: hidden;
-  max-height: 100%;
-  min-width: 100%;
+  grid-column: span 2;
+  min-height: 100px;
 }
 
 .card-1-col {
@@ -98,7 +85,7 @@ body {
 .image {
   width: 100%;
   object-fit: fill;
-  border-radius: 0.8em;
+  /* border-radius: 0.8em; */
 }
 
 .card {
@@ -177,6 +164,10 @@ a:hover {
     grid-template-columns: 1fr;
   }
   .card-1-col {
+    grid-column: auto;
+  }
+
+  .card-1-col-video {
     grid-column: auto;
   }
 
