@@ -67,6 +67,24 @@ body {
   gap: 1.6em;
 }
 
+.card-1-col-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #262626; */
+  position: relative;
+  overflow: hidden;
+  min-height: 50vh;
+}
+
+.video {
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  max-height: 100%;
+  min-width: 100%;
+}
+
 .card-1-col {
   grid-column: span 2;
 }
