@@ -1,7 +1,5 @@
 /* 
-  - научиться работать с гит
-  - научиться встраивать видео
-  — сверстать страницу яндекса
+  - сверстать страницу векторли
   */
 
 * {
@@ -17,13 +15,17 @@
 }
 .page {
   overflow: hiden;
-  /* max-width: 3000px; */
+  max-width: 2000px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 body {
   position: relative;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 0 1.6em;
   margin-top: -0.8em;
   font-family: "Inter";
@@ -52,7 +54,7 @@ body {
   grid-template-columns: 1fr 1fr;
   column-gap: 1.6em;
   row-gap: 3.2em;
-  margin-bottom: 6.4em;
+  margin-bottom: 12.8em;
 }
 .wrapper-footer {
   display: grid;
@@ -60,7 +62,7 @@ body {
   grid-template-rows: 1fr auto;
   column-gap: 1.6em;
   row-gap: 1.6em;
-  margin-top: 6.4em;
+  margin-top: auto;
 }
 .footer {
   display: flex;
@@ -73,6 +75,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.6em;
+  margin-bottom: 12.8em;
 }
 
 .card {
@@ -85,20 +88,26 @@ body {
   grid-column: span 2;
   min-height: 100px;
 }
+.card-1-col-video-padding {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column: span 2;
+  gap: 1.6em;
+  padding-left: 12.8em;
+  padding-right: 12.8em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  border: 0.8em solid var(--clr-background);
+  background-color: var(--clr-background);
+}
 .card-1-col {
   grid-column: span 2;
-}
-.card-1-col-background {
-  grid-column: span 2;
-  padding: 1.6em;
-  background-color: #ff3c11;
 }
 .card-2-col {
   display: grid;
   grid-template-columns: 1fr;
   row-gap: 1.6em;
 }
-
 .images-4-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -117,18 +126,23 @@ body {
   object-fit: fill;
   /* border-radius: 0.8em; */
 }
-
 .paragraph-gap {
   display: grid;
   max-width: 650px;
   grid-row-gap: 1.6em;
 }
-
+.video-border {
+  border-radius: 2em;
+}
 .paragraph-gap-change-column {
   display: grid;
   grid-area: 2 / 2;
   max-width: var(--width-text);
   grid-row-gap: 1.6em;
+}
+
+.vctrl_icon_set_4_col {
+  /* тут нужно сделать разметку для 8 иконок */
 }
 
 h1,
@@ -167,6 +181,7 @@ a:hover {
   .wrapper-card {
     grid-template-columns: 1fr;
   }
+
   .card-1-col {
     grid-column: auto;
   }
@@ -182,6 +197,16 @@ a:hover {
     padding-right: 0.8em;
     padding-top: 0.8em;
     padding-bottom: 0.8em;
+  }
+
+  .card-1-col-video-padding {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column: span 1;
+    all: initial;
+  }
+  .video-border {
+    border-radius: 8px;
   }
 
   #wrapper-footer {
@@ -222,7 +247,6 @@ a:hover {
   .card-1-col {
     grid-column: auto;
   }
-
   .card-1-col-video {
     grid-column: auto;
   }
