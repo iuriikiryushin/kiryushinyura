@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M102.294 98.54C113.656 91.8992 120.783 82.3441 120.783 71.7243C120.783 51.6671 95.3608 35.4075 64.0009 35.4075C32.641 35.4075 7.21875 51.6671 7.21875 71.7243C7.21875 91.7814 32.641 108.041 64.0009 108.041C71.177 108.041 78.0423 107.19 84.3631 105.636L87.9713 124L102.294 98.54Z" fill="url(#paint0_linear_1130_1647)" stroke="#7B61FF" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="6.64796" cy="6.64796" r="6.64796" transform="matrix(-0.965926 -0.258819 -0.258819 0.965926 49.7773 67.7046)" fill="#7B61FF" stroke="#7B61FF" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="6.64796" cy="6.64796" r="6.64796" transform="matrix(-0.965926 -0.258819 -0.258819 0.965926 72.1445 67.7048)" fill="#7B61FF" stroke="#7B61FF" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="6.64796" cy="6.64796" r="6.64796" transform="matrix(-0.965926 -0.258819 -0.258819 0.965926 94.5078 67.704)" fill="#7B61FF" stroke="#7B61FF" stroke-width="4" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M104.463 72.4112C116.469 65.2152 124 54.8611 124 43.3533C124 21.6192 97.1371 4 64 4C30.8629 4 4 21.6192 4 43.3533C4 65.0875 30.8629 82.7067 64 82.7067C71.5828 82.7067 78.8371 81.7843 85.5161 80.1009L89.3288 100L104.463 72.4112Z" fill="#FFDD65" stroke="#7B61FF" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="6.64796" cy="6.64796" r="6.64796" transform="matrix(-0.965926 -0.258819 -0.258819 0.965926 49.7773 37.8162)" fill="#FFE999" stroke="#7B61FF" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="6.64796" cy="6.64796" r="6.64796" transform="matrix(-0.965926 -0.258819 -0.258819 0.965926 72.1445 37.8164)" fill="#FFE999" stroke="#7B61FF" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="6.64796" cy="6.64796" r="6.64796" transform="matrix(-0.965926 -0.258819 -0.258819 0.965926 94.5078 37.8156)" fill="#FFE999" stroke="#7B61FF" stroke-width="4" stroke-linejoin="round"/>
+<path d="M3.07812 124C3.07812 108.774 15.4214 96.4305 30.6476 96.4305H40.4325C55.6587 96.4305 68.002 108.774 68.002 124H41.8688H29.2113H3.07812Z" fill="#FFE999" stroke="#7B61FF" stroke-width="4" stroke-linejoin="round"/>
+<ellipse cx="35.5398" cy="73.2309" rx="17.9773" ry="17.8933" fill="#FFE999" stroke="#7B61FF" stroke-width="4" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_1130_1647" x1="64.0009" y1="35.4075" x2="106.34" y2="117.834" gradientUnits="userSpaceOnUse">
+<stop offset="0.14375" stop-color="#7B61FF"/>
+<stop offset="0.414583" stop-color="#7B61FF" stop-opacity="0.920925"/>
+<stop offset="1" stop-color="#7B61FF" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
