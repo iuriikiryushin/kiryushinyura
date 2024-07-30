@@ -204,7 +204,11 @@ a:hover {
 
 @media screen and (max-width: 1400px) {
   .wrapper-main {
-    grid-template-columns: 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.6em;
+    row-gap: 3.2em;
+    margin-bottom: 12.8em;
   }
   .wrapper-card {
     grid-template-columns: 1fr;
@@ -247,6 +251,7 @@ a:hover {
 @media screen and (max-width: 960px) {
   .wrapper-main {
     grid-template-columns: 1fr;
+    row-gap: 4.8em;
   }
   .wrapper-text {
     grid-template-columns: 1fr;
@@ -269,6 +274,10 @@ a:hover {
     border: 0em solid #ffffff;
     background-color: #ffffff;
   }
+  .card-1-col-video {
+    padding-top: 12.8em;
+    padding-bottom: 12.8em;
+  }
 
   .images-4-grid {
     grid-template-columns: 1fr;
@@ -288,7 +297,6 @@ a:hover {
     padding-top: 1.6em;
     padding-bottom: 1.6em;
   }
-
   .zerik {
     width: 100%;
   }
